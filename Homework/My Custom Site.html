@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Marcus' Stuff</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="My Custom Site.css">
+    </head>
+
+<body>
+  <div class="main-container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="My Custom Site.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 header-black">
+              <li class="nav-item header-hover-red">
+                <a class="nav-link active" aria-current="page" href="My Resume.html">Resume</a>
+              </li>
+              <li class="nav-item header-hover-red">
+                <a class="nav-link active" href="My Kitchen.html">My Kitchen</a>
+              </li>
+              <li class="nav-item header-hover-red dropdown">
+                <a class="nav-link active" href="My Favorite Restaurants.html" aria-expanded="false">Restaurants</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" id="search-button" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <h1 class="header-black">Marcus Harris</h1>
+            </div>
+            <div class="col-md-12 d-flex justify-content-center">
+                <p class="header-black">Welcome To My Autobiography</p>
+            </div>
+            <div class="col-md-12 d-flex justify-content-center">
+                <img id="myself" src="Myself.jpg" alt="Marcus Harris" width="250" height="333">
+            </div>
+        </div>
+      </div>
+  </div>
+  <div class="container-fluid text-center bio-field">
+    <h2>Who Am I?</h2>
+        <p>I am currently a member of the WIN Program, sponsored by Carolina FinTech Hub. I am learning how to code and I made a lot of websites so far.</p>
+    <h2>Want to Contact Me?</h2>
+        <p>The best way to reach me is via phone, slack, & email. Please feel free to fill out the form below and I will contact you with any questions or concerns!</p>
+  </div>
+
+  <div class="container-fluid text-center contact-container">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 contact-form">
+          <h2>Contact Form</h2>
+            <form>
+              <label class="d-flex justify-content-center" for="name">Name: </label>
+              <input type="text" id="name" name="name"></br>
+    
+              <label class="d-flex justify-content-center" for="email">Email: </label>
+              <input type="text" id="email" name="email"></br>
+    
+              <label class="d-flex justify-content-center" for="comment">Comment(s): </label>
+              <textarea id="comment" name="comment" rows="4" cols="40">Your comments...</textarea>
+    
+              <br></br>
+              <input id="submit-button" type="submit" value="Submit!"></br>
+            </form>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+  </div>
+<div class="container-fluid text-center footer-container">
+    <div class="row">
+        <div class="col-md-12 fixed-bottom" id="footer">
+            <p>The official Harris Theme Made by <a href="www.linkedin.com/in/marcus-harris-773104199">Marcus</a></p>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>

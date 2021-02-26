@@ -1,0 +1,103 @@
+
+.logo{
+    height: 21px;
+    width: 52px;
+    margin-left: 30px;
+}
+.carsoul{
+    height: 500px;
+    
+}
+.inlinelist li{
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline;
+    border-right: 1px solid white; 
+  
+}
+
+.inlinelist li:last-child{
+    border-right: none;
+}
+.centered {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  .btncustome button{
+      margin-left:18px;
+  
+      text-align: center;
+    
+  }
+
+.footer {
+    height: 50px;
+    background-color: black;
+    margin-top: -5px;
+}
+
+footer div div a {
+    color: white !important;
+    text-decoration: none;
+}
+
+footer div div a:hover {
+    color: gray !important;
+}
+
+.btncustome button{
+    margin-left:18px;
+    margin-bottom:18px;
+    text-align: center;
+}
+.btncustome button:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.orderbtn {
+    background-color: #E32526;
+    color: white;
+}
+
+.orderbtn:hover {
+    background-color: black !important;
+    color: white !important;
+}
+
+#dropdownMenuButton {
+    background-color: black;
+    border-color: black;
+}
+
+header nav {
+    background-color:transparent;
+}
+
+header nav::-webkit-scrollbar-track {
+    background-color:black !important;
+}
+
+.picgrid img:hover{
+    transform: scale(1.025);
+    overflow: hidden;
+}
+
+nav div a {
+    color: white !important;
+    text-decoration: none;
+}
+
+nav div a:hover {
+    color: gray !important;
+}
+
+.hide {
+    overflow: hidden;
+}
